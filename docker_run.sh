@@ -8,7 +8,7 @@ docker run -d \
     --rm \
     -h ${docker_name} \
     --name ${docker_name} \
-    -v $(pwd):/root/work \
+    -v $(pwd)/bin:/root/work \
     -p $2:$2 \
     --cap-add=SYS_PTRACE \
     pwn_deploy_pwn_$1
