@@ -1,6 +1,6 @@
 ## DeployPwnDocker
 
-Pwn调试环境搭建
+Pwn调试环境搭建，修改自pwn_deploy_chroot
 
 ### 参考：
 
